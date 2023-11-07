@@ -68,6 +68,7 @@ def summarize(text):
 
 def main():
     
+    # Argparser to help run code from terminal
     parser = argparse.ArgumentParser(description='List of options')
     parser.add_argument('-f', '--file' ,dest='infile', help='Name of input PDF file', required=True)
     parser.add_argument('-s', '--start', dest='start', help='Name of first PDF section | format: \'start\'', required=True)
