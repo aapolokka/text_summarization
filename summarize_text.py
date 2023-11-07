@@ -80,7 +80,6 @@ def main():
     pdf_file = args.infile
 
     text = extract_text_between_pdf_sections(pdf_file, str(start), str(end))
-    
     summary = summarize(text)
 
     print("Summary:")
